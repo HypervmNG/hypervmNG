@@ -1,4 +1,5 @@
-# HyperVM-NG
+# HypervmNG
+This is a fork of https://github.com/hypervm-ng/hypervm-ng
 A complete virtualization manager. Some of the features:
 
 * OpenVZ and Xen virtualization support
@@ -17,11 +18,11 @@ and much, much more.
 
 Just follow this simple guide:
 
-http://wiki.hypervm-ng.org/display/DOCS/Installation
+http:/ /display/DOCS/Installation
 
 # Contributing
 
-Please have a look at HyperVM-NG's mailing lists and bug tracker. There is forum as well available at: http://community.hypervm-ng.org
+Please have a look at HypervmNG Github Issues and reports any bug. There is forum as well available at: http://
 
 # Licensing - AGPLv3
 
