@@ -98,7 +98,7 @@ case $1 in
 		# Clone from GitHub the last version using git transport (no http or https)
 		echo "Installing branch hypervm/master"
 		mkdir -p ${HYPERVM_PATH}
-		git clone https://github.com/hypervm-ng/hypervm-ng.git ${HYPERVM_PATH}
+		git clone https://github.com/HypervmNG/hypervmNG.git ${HYPERVM_PATH}
 		cd ${HYPERVM_PATH}
 		git checkout master
 		cd ${HYPERVM_PATH}/hypervm-install
@@ -111,7 +111,7 @@ case $1 in
 		# Clone from GitHub the last version using git transport (no http or https)
 		echo "Installing branch hypervm/legacy"
 		mkdir -p ${HYPERVM_PATH}
-		git clone https://github.com/hypervm-ng/hypervm-ng.git ${HYPERVM_PATH}
+		git clone https://github.com/HypervmNG/hypervmNG.git ${HYPERVM_PATH}
 		cd ${HYPERVM_PATH}
 		git checkout legacy
 		cd ${HYPERVM_PATH}/hypervm-install
@@ -123,7 +123,7 @@ case $1 in
 	dev )
 		# Clone from GitHub the last version using git transport (no http or https)
 		echo "Installing branch hypervm/dev"
-		git clone https://github.com/hypervm-ng/hypervm-ng.git ${HYPERVM_PATH}
+		git clone https://github.com/HypervmNG/hypervmNG.git ${HYPERVM_PATH}
 		cd ${HYPERVM_PATH}
 		git checkout dev -f
 		cd ${HYPERVM_PATH}/hypervm-install
